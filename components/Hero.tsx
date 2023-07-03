@@ -40,7 +40,7 @@ const Hero = () => {
             whileInView={{ y: 0 }}
             transition={{ ease: "easeInOut", duration: 0.5, delay: 0.6 }}
           >
-            Web Developer<span className="text-accent">.</span>
+            Web Developer
           </motion.h2>
         </div>
       </div>
@@ -128,11 +128,11 @@ const Hero = () => {
           className="w-[10rem] h-[10rem] rounded-2xl border border-light/10 absolute left-[85%] top-[60%] -translate-x-1/2 -translate-y-1/2 bg-black/30 backdrop-blur-xl shadow-2xl text-7xl flex justify-center items-center text-violet-400"
         >
           <span>
-            <SiRedux />
+            <SiNextdotjs />
           </span>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, left: "12%" }}
           whileInView={{ opacity: 1, left: "22%" }}
           transition={{ ease: "easeInOut", duration: 1, delay: 1.7 }}
@@ -141,7 +141,7 @@ const Hero = () => {
           <span>
             <SiNextdotjs />
           </span>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           initial={{ opacity: 0, left: "75%" }}

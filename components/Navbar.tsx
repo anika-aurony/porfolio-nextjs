@@ -46,7 +46,7 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ ease: "easeInOut", duration: 1.5, delay: 0.5 }}
-            className="mid py-4 px-10 border border-light/10 rounded-full bg-black/10 backdrop-blur-xl hover:px-20 duration-500 shadow-xl"
+            className="mid py-4 px-20 border border-light/10 rounded bg-black/10 backdrop-blur-xl hover:px-20 duration-500 shadow-xl"
           >
             <nav className="flex gap-5">
               <li className="list-none">
