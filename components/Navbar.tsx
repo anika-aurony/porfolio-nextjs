@@ -246,7 +246,7 @@ const Navbar = () => {
                 className="list-none"
               >
                 <Link
-                  href="https://drive.google.com/uc?export=download&id=16rCIrOJxWv-FYk1ydZwsU84d6fWoJ3bw"
+                  href="https://drive.google.com/file/d/1iSSPaCQVn2ppZqy4vqbqfeYOg9mR2t8j/view?usp=sharing"
                   target="_blank"
                   className="hover:text-accent duration-500"
                 >
