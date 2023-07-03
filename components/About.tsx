@@ -36,7 +36,7 @@ const About = () => {
               />
               <div className="text-2xl">
                 <ButtonAsLink
-                  href="https://github.com/shohan-pherones"
+                  href="https://github.com/anika-aurony"
                   target="_blank"
                   placeholder="Repositories"
                 />
@@ -51,26 +51,13 @@ const About = () => {
               />
               <div className="text-2xl">
                 <ButtonAsLink
-                  href="https://github.com/shohan-pherones"
+                  href="https://github.com/anika-aurony"
                   target="_blank"
                   placeholder="Contributions"
                 />
               </div>
             </div>
-            <div>
-              <CountUp
-                enableScrollSpy
-                end={data.problems}
-                className="text-8xl font-semibold text-accent"
-              />
-              <div className="text-2xl">
-                <ButtonAsLink
-                  href="https://leetcode.com/spectrashohan"
-                  target="_blank"
-                  placeholder="Problems Solved"
-                />
-              </div>
-            </div>
+         
           </div>
         </div>
          {/* BEHIND IMAGE */}

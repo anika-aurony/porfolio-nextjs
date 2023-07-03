@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { toast } from "react-hot-toast";
-import { BsArrowUpRight } from "react-icons/bs";
+import { FiChevronsRight } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
 import ButtonAsLink from "./ButtonAsLink";
 import SectionTitle from "./SectionTitle";
@@ -76,11 +76,10 @@ const Contact = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.3 }}
               className="flex gap-5 mt-2 flex-wrap"
             >
-              <ButtonAsLink href="#" placeholder="Facebook" target="_blank" />
-              <ButtonAsLink href="#" placeholder="Twitter" target="_blank" />
-              <ButtonAsLink href="#" placeholder="Instagram" target="_blank" />
-              <ButtonAsLink href="#" placeholder="LinkedIn" target="_blank" />
-              <ButtonAsLink href="#" placeholder="GitHub" target="_blank" />
+              <ButtonAsLink href="https://www.facebook.com/anika.aurony/" placeholder="Facebook" target="_blank" />
+              
+              <ButtonAsLink href="https://www.linkedin.com/in/anika-tasnim-aurony-b7497b95/" placeholder="LinkedIn" target="_blank" />
+              <ButtonAsLink href="https://github.com/anika-aurony" placeholder="GitHub" target="_blank" />
             </motion.div>
           </div>
           <div className="flex gap-10 flex-wrap md:flex-nowrap text-xl md:text-2xl">
@@ -102,8 +101,8 @@ const Contact = () => {
                 className="mt-2"
               >
                 <ButtonAsLink
-                  href="mailto:shohan.sub.56@gmail.com"
-                  placeholder="shohan.sub.56@gmail.com"
+                  href="mailto:auronyanu@gmail.com"
+                  placeholder="auronyanu@gmail.com"
                   target="_blank"
                 />
               </motion.div>
@@ -125,7 +124,7 @@ const Contact = () => {
                 transition={{ ease: "easeInOut", duration: 1.5, delay: 0.4 }}
                 className="mt-2"
               >
-                Sirajganj, Bangladesh
+                Dhaka, Bangladesh
               </motion.p>
             </div>
           </div>
@@ -219,8 +218,8 @@ const Contact = () => {
               className="uppercase flex w-full gap-3 justify-center"
             >
               Submit{" "}
-              <span className="group-hover:rotate-90 duration-500">
-                <BsArrowUpRight />
+              <span className="group-hover:rotate-180 duration-500">
+                <FiChevronsRight />
               </span>
             </motion.button>
           </div>
