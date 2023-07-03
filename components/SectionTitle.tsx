@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { BsArrowDownRight } from "react-icons/bs";
+import { FiNavigation } from "react-icons/fi";
 
 interface SectionTitleProps {
   title: string;
@@ -18,12 +18,12 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title }) => {
       >
         {title}{" "}
         <motion.span
-          initial={{ rotate: "45deg" }}
-          whileInView={{ rotate: "0deg" }}
+          initial={{ rotate: "-45deg" }}
+          whileInView={{ rotate: "90deg" }}
           transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
           className="text-accent self-start"
         >
-          <BsArrowDownRight />
+          <FiNavigation />
         </motion.span>
       </motion.h2>
     </div>

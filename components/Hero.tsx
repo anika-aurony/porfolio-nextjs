@@ -160,7 +160,7 @@ const Hero = () => {
         <motion.div
           initial={{ y: "-100%" }}
           whileInView={{ y: 0 }}
-          transition={{ ease: "easeInOut", duration: 1, delay: 2.7 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 2 }}
         >
           <p>Stay Connected with My</p>
           <div className="mt-3 flex gap-5">
