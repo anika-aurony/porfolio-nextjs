@@ -53,31 +53,31 @@ const Contact = () => {
         <div className="left flex flex-col gap-10">
           <div className="overflow-hidden">
             <motion.h4
-              initial={{ y: "100%" }}
-              whileInView={{ y: 0 }}
-              transition={{ ease: "easeInOut", duration: 1 }}
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
               className="text-2xl md:text-4xl lg:text-5xl"
             >{`Let's connect and explore new possibilities together!`}</motion.h4>
           </div>
           <div className="text-xl md:text-2xl">
             <div className="overflow-hidden">
               <motion.p
-                initial={{ y: "100%" }}
-                whileInView={{ y: 0 }}
-                transition={{ ease: "easeInOut", duration: 1, delay: 0.2 }}
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1, delay: 0.2 }}
                 className="text-light/50 text-3xl md:text-4xl"
               >
                 Social Media
               </motion.p>
             </div>
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ ease: "easeInOut", duration: 1.5, delay: 0.3 }}
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1.5, delay: 0.3 }}
               className="flex gap-5 mt-2 flex-wrap"
             >
               <ButtonAsLink href="https://www.facebook.com/anika.aurony/" placeholder="Facebook" target="_blank" />
-              
+
               <ButtonAsLink href="https://www.linkedin.com/in/anika-tasnim-aurony-b7497b95/" placeholder="LinkedIn" target="_blank" />
               <ButtonAsLink href="https://github.com/anika-aurony" placeholder="GitHub" target="_blank" />
             </motion.div>
@@ -86,18 +86,18 @@ const Contact = () => {
             <div>
               <div className="overflow-hidden">
                 <motion.p
-                  initial={{ y: "100%" }}
-                  whileInView={{ y: 0 }}
-                  transition={{ ease: "easeInOut", duration: 1, delay: 0.4 }}
+                  initial={{ opacity: 0, x: -100 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 1, delay: 0.4 }}
                   className="text-light/50 text-3xl md:text-4xl"
                 >
                   Get in touch
                 </motion.p>
               </div>
               <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ ease: "easeInOut", duration: 1.5, delay: 0.4 }}
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{  duration: 1.5, delay: 0.4 }}
                 className="mt-2"
               >
                 <ButtonAsLink
@@ -110,18 +110,18 @@ const Contact = () => {
             <div>
               <div className="overflow-hidden">
                 <motion.p
-                  initial={{ y: "100%" }}
-                  whileInView={{ y: 0 }}
-                  transition={{ ease: "easeInOut", duration: 1, delay: 0.6 }}
+                  initial={{ opacity: 0, x: -100}}
+                  whileInView={{opacity: 1, x: 0 }}
+                  transition={{ duration: 1, delay: 0.6 }}
                   className="text-light/50 text-3xl md:text-4xl"
                 >
                   Location
                 </motion.p>
               </div>
               <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ ease: "easeInOut", duration: 1.5, delay: 0.4 }}
+                initial={{ opacity: 0, x: -100}}
+                whileInView={{opacity: 1, x: 0 }}
+                transition={{  duration: 1.5, delay: 0.4 }}
                 className="mt-2"
               >
                 Dhaka, Bangladesh
@@ -211,9 +211,9 @@ const Contact = () => {
               className="shutter absolute z-[2] top-0 left-0 right-0 bottom-0 w-full h-full bg-accent"
             ></motion.div>
             <motion.button
-              initial={{ y: "100%" }}
-              whileInView={{ y: 0 }}
-              transition={{ ease: "easeInOut", duration: 1, delay: 1 }}
+              initial={{ opacity: 0, x: -100}}
+              whileInView={{opacity: 1, x: 0 }}
+              transition={{  duration: 1, delay: 1 }}
               type="submit"
               className="uppercase flex w-full gap-3 justify-center"
             >
