@@ -183,7 +183,7 @@ const Hero = () => {
               </span>
             </Link>
             {/* <Link
-              href="https://twitter.com/elysianshohan"
+              href=""
               target="_blank"
               className="text-3xl hover:text-accent duration-500"
             >
