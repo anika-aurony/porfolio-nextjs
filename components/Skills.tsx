@@ -19,7 +19,7 @@ const Skills = () => {
         ))}
       </div>
 
-      {/* MARQUEE */}
+      {/* MARQUEE
       <div className="mt-20 bg-accent">
         <Marquee
           speed={300}
@@ -28,11 +28,11 @@ const Skills = () => {
           HTML&mdash;CSS&mdash;Bootstrap&mdash;Tailwind
           CSS&mdash;JavaScript&mdash;TypeScript&mdash;React.JS&mdash;Redux
           Toolkit&mdash;Next.JS&mdash;NextAuth&mdash;Firebase
-          Auth.&mdash;Axios&mdash;React Query&mdash;GSAP&mdash;Framer
-          Motion&mdash;Node.JS&mdash;Express.JS&mdash;MongoDB&mdash;PostgreSQl&mdash;Stripe&mdash;Git&mdash;GitHub&mdash;NPM&mdash;Vercel&mdash;Netlify&mdash;Insomnia&mdash;Chrome
+          Auth.&mdash;Axios&mdash;React Query&mdash;Framer
+          Motion&mdash;Node.JS&mdash;Express.JS&mdash;MongoDB&mdash;Stripe&mdash;Git&mdash;GitHub&mdash;NPM&mdash;Vercel&mdash;Netlify&mdash;Insomnia&mdash;Chrome
           DevTools&mdash;Figma&mdash;
         </Marquee>
-      </div>
+      </div> */}
     </section>
   );
 };

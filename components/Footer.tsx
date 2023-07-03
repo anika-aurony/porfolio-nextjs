@@ -1,6 +1,5 @@
 "use client";
 
-import { FiActivity } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -19,11 +18,11 @@ const Footer = () => {
           className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-semibold text-center flex gap-5 justify-center items-center"
         >
           <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl animate-transform-x-full">
-          <FiActivity />
+         
           </span>
           <span>Thank You</span>
           <span className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl animate-linear">
-          <FiActivity />
+         
           </span>
         </motion.h2>
       </div>
