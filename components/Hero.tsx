@@ -16,9 +16,9 @@ const Hero = () => {
         {/* FIRST LINE */}
         <div className="overflow-hidden">
           <motion.h2
-            initial={{ y: "100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{opacity: 1, x: 0 }}
+            transition={{  duration: 0.6 }}
           >
             INNOVATIVE
           </motion.h2>
@@ -26,9 +26,9 @@ const Hero = () => {
         {/* SECOND LINE */}
         <div className="overflow-hidden">
           <motion.h2
-            initial={{ y: "100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.3 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0  }}
+            transition={{  duration: 0.6, delay: 0.5 }}
           >
             Full-Stack
           </motion.h2>
@@ -36,9 +36,9 @@ const Hero = () => {
         {/* THIRD LINE */}
         <div className="overflow-hidden">
           <motion.h2
-            initial={{ y: "100%" }}
-            whileInView={{ y: 0 }}
-            transition={{ ease: "easeInOut", duration: 0.5, delay: 0.6 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{opacity: 1, x: 0  }}
+            transition={{  duration: 0.7, delay: 0.8 }}
           >
             Web Developer
           </motion.h2>
@@ -194,7 +194,7 @@ const Hero = () => {
           </div>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ y: "-100%" }}
           whileInView={{ y: 0 }}
           transition={{ ease: "easeInOut", duration: 1, delay: 2.9 }}
@@ -209,7 +209,7 @@ const Hero = () => {
               <BsArrowDown />
             </span>
           </Link>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
