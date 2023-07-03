@@ -2,11 +2,11 @@ export const data = [
   {
     id: 1,
     title: "Disney World Toys",
-    shortBio: "Lorem ipsum dolor sit amet consectetur",
+    shortBio: "This is a Toys market for baby girls who like disney characters. Here, react, react-router, bootstrap, Firebase Authentication are used.Data are stored in backend using Node.js and Express.js Google authentication are used MongoDB is used as Database",
     image:
       "https://res.cloudinary.com/dihxkysmc/image/upload/v1688371235/Toy2_foychx.jpg",
-    moreImages: [
-      
+    moreImages: ["https://res.cloudinary.com/dihxkysmc/image/upload/v1688371235/Toy2_foychx.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386268/toy3_uwvw2d.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386268/toy4_r3ms0t.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386269/toy5_bbpflg.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386272/toy6_erforz.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386268/toy7_b2rjja.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386445/toy9_qwm29r.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386313/toy8_c3mdrn.jpg"
+
     ],
     description:
       "This is a Toys market for baby girls who like disney characters.",
@@ -26,7 +26,7 @@ export const data = [
     image:
       "https://res.cloudinary.com/dihxkysmc/image/upload/v1688371924/Champion2_dvir1q.jpg",
     moreImages: [
-      "",
+      "https://res.cloudinary.com/dihxkysmc/image/upload/v1688371924/Champion2_dvir1q.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386752/champions3_jgpc7v.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386750/Champion4_zcdoel.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386749/champion5_wvg7iu.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386749/Champion6_gumymp.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688386749/Champion6_gumymp.jpg"
     ],
     description:
       "This is a sports academy website. Students can book a class. Instructor and Admin role also executed",
@@ -42,14 +42,14 @@ export const data = [
   {
     id: 3,
     title: "Radhunir Ghar",
-    shortBio: "Lorem ipsum dolor sit amet consectetur",
+    shortBio: "This is Chef Hunt website. Here, react, react-router, bootstrap, Firebase Authentication are used. Data are stored in backend using Node.js and Express.js Google and Github authentication are used",
     image:
       "https://res.cloudinary.com/dihxkysmc/image/upload/v1688372305/Radhunir1_sujpej.jpg",
-    moreImages: [
-      "",
-    ],
+      moreImages: [
+        "https://res.cloudinary.com/dihxkysmc/image/upload/v1688389668/Radhunir2_pjolrf.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688372305/Radhunir1_sujpej.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688389669/radhunir4_mesvgp.jpg", "https://res.cloudinary.com/dihxkysmc/image/upload/v1688389670/Radhunir3_h3udeu.jpg"
+      ],
     description:
-      "This is a sports academy website. Students can book a class. Instructor and Admin role also executed",
+      "This is Chef Hunt website.",
     moreDescription: [
       "This is Chef Hunt website. Here, react, react-router, bootstrap, Firebase Authentication are used. Data are stored in backend using Node.js and Express.js Google and Github authentication are used",
     ],
