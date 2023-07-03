@@ -73,12 +73,12 @@ export const data = [
     icon: BiLogoReact,
     delay: 0.7,
   },
-  {
-    id: 9,
-    text: "Redux",
-    icon: BiLogoRedux,
-    delay: 0.8,
-  },
+  // {
+  //   id: 9,
+  //   text: "Redux",
+  //   icon: BiLogoRedux,
+  //   delay: 0.8,
+  // },
   {
     id: 10,
     text: "Next",
@@ -127,12 +127,12 @@ export const data = [
   //   icon: BiLogoDocker,
   //   delay: 1.6,
   // },
-  {
-    id: 18,
-    text: "PostgreSQL",
-    icon: BiLogoPostgresql,
-    delay: 1.7,
-  },
+  // {
+  //   id: 18,
+  //   text: "PostgreSQL",
+  //   icon: BiLogoPostgresql,
+  //   delay: 1.7,
+  // },
   {
     id: 19,
     text: "Firebase",

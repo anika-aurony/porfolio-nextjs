@@ -29,7 +29,7 @@ const Skills = () => {
           CSS&mdash;JavaScript&mdash;TypeScript&mdash;React.JS&mdash;Redux
           Toolkit&mdash;Next.JS&mdash;NextAuth&mdash;Firebase
           Auth.&mdash;Axios&mdash;React Query&mdash;GSAP&mdash;Framer
-          Motion&mdash;Node.JS&mdash;Express.JS&mdash;MongoDB&mdash;PostgreSQl&mdash;Prisma&mdash;Mongoose&mdash;Stripe&mdash;Git&mdash;GitHub&mdash;NPM&mdash;Docker&mdash;Vercel&mdash;Netlify&mdash;Insomnia&mdash;Chrome
+          Motion&mdash;Node.JS&mdash;Express.JS&mdash;MongoDB&mdash;PostgreSQl&mdash;Stripe&mdash;Git&mdash;GitHub&mdash;NPM&mdash;Vercel&mdash;Netlify&mdash;Insomnia&mdash;Chrome
           DevTools&mdash;Figma&mdash;
         </Marquee>
       </div>
