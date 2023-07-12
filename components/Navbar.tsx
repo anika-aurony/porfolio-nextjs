@@ -85,7 +85,7 @@ const Navbar = () => {
               transition={{ ease: "easeInOut", duration: 1.5, delay: 0.9 }}
             >
               <ButtonAsLink
-                href="https://drive.google.com/file/d/1iSSPaCQVn2ppZqy4vqbqfeYOg9mR2t8j/view?usp=sharing"
+                href="https://drive.google.com/uc?export=download&id=1oGIQug9qQsaq1W636qX2d60YKOsjlRL1"
                 placeholder="Download Resume"
                 target="_blank"
               />
@@ -246,7 +246,7 @@ const Navbar = () => {
                 className="list-none"
               >
                 <Link
-                  href="https://drive.google.com/file/d/1iSSPaCQVn2ppZqy4vqbqfeYOg9mR2t8j/view?usp=sharing"
+                  href="https://drive.google.com/uc?export=download&id=1oGIQug9qQsaq1W636qX2d60YKOsjlRL1"
                   target="_blank"
                   className="hover:text-accent duration-500"
                 >
